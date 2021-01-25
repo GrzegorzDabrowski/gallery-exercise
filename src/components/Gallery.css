@@ -1,0 +1,23 @@
+.gallery {
+  list-style: none;
+}
+
+.gallery li {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 1px 1px 1px #c5c4c4c0;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  transition: 1s;
+}
+
+.gallery li:hover {
+  transform: scale(1.1);
+  z-index: 999;
+}
+
+.gallery li img {
+  width: 100%;
+}
